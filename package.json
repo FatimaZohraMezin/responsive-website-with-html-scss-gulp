@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp --development",
-    "build": "gulp build --production"
+    "dev": "node --openssl-legacy-provider ./node_modules/gulp/bin/gulp.js --development",
+    "build": "node --openssl-legacy-provider ./node_modules/gulp/bin/gulp.js build --production"
   },
   "keywords": [],
   "author": "",
